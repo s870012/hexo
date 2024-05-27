@@ -357,7 +357,7 @@ body {
 #subtitle {
   text-decoration: none;
   color: #fff;
-  font-weight: 300;
+  font-weight: 600;
   text-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
 #logo {
@@ -381,7 +381,6 @@ body {
 .main-nav-link {
   float: left;
   color: #fff;
-  opacity: 0.6;
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.2);
   -webkit-transition: opacity 0.2s;
@@ -1343,4 +1342,17 @@ pre .javascript .function {
 .tagcloud a {
   margin-right: 5px;
   display: inline-block;
+}
+.index-title{
+  text-align: center;
+}
+.fullPage #main{
+  width: 100%;
+  float: none;
+  margin: 0;
+}
+.fullPage .article-meta, 
+.fullPage .article-header, 
+.fullPage .article-footer{
+  display: none;
 }
